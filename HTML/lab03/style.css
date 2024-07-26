@@ -1,0 +1,21 @@
+.converter-box {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button{
+    color: white;
+    background-color:dodgerblue;
+}
+.block{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.marginline{
+    margin-right: 30px;
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+}

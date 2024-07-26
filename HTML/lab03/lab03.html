@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="margin-left: 30px;">Unit Converter</h1>
+        <div class="block">
+            <h3>KG - Pounds</h2>
+            <div style="display: flex;">
+                <h5>Enter value:</h5>
+                <input type="number" id="unitInput" style="margin-left: 110px;" placeholder="Enter value">
+            </div>
+            <div style="display: flex; margin-top: 20px;">
+                 <h5>Select conversion:</h5>
+                <select id="conversionType" style="margin-left: 50px;">
+                    <option value="kgToPounds">Kilograms to Pounds</option>
+                    <option value="poundsToKg">Pounds to Kilograms</option>
+                </select>
+            </div>
+            <button type="button" class="button" onclick="convert()">Convert</button>    
+            <div style="display: flex;">
+                <h5>Result:</h5>
+                <p id="kglbsresult" style="margin-left: 20px;"></p>
+            </div>
+        </div>
+        <hr class="marginline">
+        <div class="block">
+            <h3>KM - Miles</h2>
+            <div style="display: flex;">
+                <h5>Enter value:</h5>
+                <input type="number" style="margin-left: 110px;" id="mileskm" placeholder="Enter value">
+            </div>
+            <div style="display: flex; margin-top: 20px;">
+                 <h5>Select conversion:</h5>
+                <select style="margin-left: 50px;" id="kmmiles">
+                    <option value="kmToMiles">Kilometers to Miles</option>
+                    <option value="milesToKm">Miles to Kilometers</option>
+                </select>
+            </div>
+            <button type="button" class="button" onclick="convert1()">Convert</button>            
+            <div style="display: flex;">
+                <h5>Result:</h5>
+                <p id="kmmiresult" style="margin-left: 20px;"></p>
+            </div>
+        </div>
+        <hr class="marginline">
+        <div class="block">
+            <h3>Fahrenheit - Celsius</h2>
+            <div style="display: flex;">
+                <h5>Enter value:</h5>
+                <input type="number" style="margin-left: 110px;" id="fhCl" placeholder="Enter value">
+            </div>
+            <div style="display: flex; margin-top: 20px;">
+                 <h5>Select conversion:</h5>
+                <select style="margin-left: 50px;" id="facl">
+                    <option value="face">Fahrenheit to Celsius</option>
+                    <option value="cefl">Celsius to Fahrenheit</option>
+                </select>
+            </div>
+            <button type="button" class="button" onclick="convert2()">Convert</button>            
+            <div style="display: flex;">
+                <h5>Result:</h5>
+                <p id="fhClresult" style="margin-left: 20px;"></p>
+            </div>
+        </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="converter.js"></script>
+</body>
+</html>

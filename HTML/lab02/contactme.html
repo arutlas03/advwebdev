@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a style="margin-right: 20px;" href="main.html">Home</a>
+                <a style="margin-right: 20px;" href="resume.html">Resume</a>
+                <a style="margin-right: 20px;" href="contactme.html">Contact Me</a>
+                <a style="margin-right: 20px;" href="portfolio.html">Portfolio</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Fill the form below</h2>
+        <form action="submit_form.php" method="POST">
+            <label style="margin-right: 50px;" for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label style="margin-right: 50px;" for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label style="margin-right: 50px;" for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="social-links">
+            <h3>Connect Me:</h3>
+            <ul>
+                <li><a href="https://x.com/SamaraSimha03" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/jobs/opportunities/job-opportunities/onboarding?origin=SEEKER_NEXT_BEST_ACTION&lipi=urn%3Ali%3Apage%3Ad_flagship3_job_home%3B0b6xGyLcT7K4x2%2Fo%2F7iZZw%3D%3D" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/arutlas03" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+ul {
+    height: 30px;
+  }
+  
+  li a:hover {
+    background-color: #eb1d1d;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    height: 8vh;
+}
+img {
+    width: 20vw;
+    height: 40vh;
+}
